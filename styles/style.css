@@ -4,20 +4,20 @@
   --font-family: "Raleway", sans-serif;
 }
 
-.header-container{
+.header-container {
     display: grid;
     max-width: 1100px;
     max-height: 293px;
 }
 
-.header-items{
+.header-items {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 92px 50px 96px 50px;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     gap: 32px;
     list-style: circle;
@@ -27,16 +27,16 @@
     color: #000;
 }
 
-.nav-link-non-circle{
+.nav-link-non-circle {
     list-style-type: none;
     text-decoration: none;
 }
 
-.nav-link-non-decoration{
+.nav-link-non-decoration {
     text-decoration: none;
 }
 
-.header-adress{
+.header-adress {
     font-family: var(--font-family);
     display: flex;
     max-width: 240px;
@@ -50,20 +50,20 @@
     color: #000
 }
 
-.mailto{
+.mailto {
     text-underline-offset: 3px;
 }
 
-.nomber{
+.nomber {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
 
-.logo{
+.logo {
     max-width: 148px;
 }
 
-.hero{
+.hero {
     position: relative;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
@@ -71,23 +71,22 @@
     background-size: cover;
     min-height: 757px;
     min-width: 1100px;
-    min-height: 757px;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   inset: 0;
   background-color: rgb(0 0 0/0.6);
 }
 
-.hero-container{
+.hero-container {
     position: relative;
     z-index: 1;
     display: flex;
     padding: 165px 50px 106px 50px;
 }
 
-.hero-text{
+.hero-text {
     font-family: var(--font-family);
     min-height: 385px;
     width: 100%;
@@ -98,20 +97,20 @@
     color: #fff;
 }
 
-.aligned{
+.aligned {
     display: block;
 }
 
-.aligned-center{
+.aligned-center {
     text-align: center;
     line-height: 1.5;
 }
-.aligned-right{
+.aligned-right {
     text-align: right;
     margin-right: -0.3em;
 }
 
-.description{
+.description {
     margin: 0 50px 50px 50px;
     display: flex;
     align-items: center;
@@ -120,7 +119,7 @@
     height: 51px;
 }
 
-.text-description{
+.text-description {
     font-family: var(--font-family);
     width: 637px;
     height: 28px;
@@ -134,7 +133,7 @@
     color: #fff;
 }
 
-.button{
+.button {
     position: relative;
     z-index: 1;
     background: transparent;
@@ -148,13 +147,13 @@
     cursor: pointer;
 }
 
-.lots-container{
+.lots-container {
     padding-left: 24px;
     min-width: 1052px;
     min-height: 723px;
 }
 
-.lots-list{
+.lots-list {
     display: flex;
     gap: 25px;
     list-style: none;
@@ -162,11 +161,11 @@
     padding-bottom: 25px;
 }
 
-.lots{
+.lots {
     padding-top: 180px;
 }
 
-.lots-heading{
+.lots-heading {
     padding-left: 40px;
     padding-bottom: 27px;
     font-family: var(--font-family);
@@ -176,7 +175,7 @@
     color: #000;
 }
 
-.lots-card{
+.lots-card {
     position: relative;
     display: flex;
     width: 334px;
@@ -185,28 +184,28 @@
     justify-content: space-between;
 }
 
-.lots-card-first{
+.lots-card-first {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.lots-card-second{
+.lots-card-second {
     background-image: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.lots-card-third{
+.lots-card-third {
     background-image: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.lots-card-link{
+.lots-card-link {
     z-index: 1;
     font-family: var(--font-family);
     font-weight: 700;
@@ -224,7 +223,7 @@
     justify-self: center;
 }
 
-.card-description{
+.card-description {
     z-index: 1;
     padding-bottom: 48px;
     display: flex;
@@ -237,7 +236,7 @@
     color: #fff;
 }
 
-.lots-button{
+.lots-button {
     padding-left: 40px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -245,18 +244,18 @@
     color: #000;
 }
 
-.about{
+.about {
     padding-top: 120px;
 }
 
-.about-container{
+.about-container {
     display: grid;
     grid-template-columns: 358px 1fr;
     min-width: 1052px;
     min-height: 595px;
 }
 
-.circle-logo{
+.circle-logo {
     width: 240px;
     height: 240px;
     background-color: #000;
@@ -268,12 +267,12 @@
     margin-left: 71px;
 }
 
-.white-logo{
+.white-logo {
     width: 148px;
     height: 114px;
 }
 
-.about-text-container{
+.about-text-container {
     margin-top: auto;
     height: 462px;
     width: 693px;
@@ -284,7 +283,7 @@
 
 }
 
-.about-text-header{
+.about-text-header {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 40px;
@@ -292,7 +291,7 @@
     color: #000;
 }
 
-.about-paragraphs{
+.about-paragraphs {
     font-family: var(--font-family);
     justify-content: space-between;
     font-weight: 400;
@@ -301,13 +300,13 @@
     color: #000;
 }
 
-.about-description-block{
+.about-description-block {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.first-paragraph{
+.first-paragraph {
     width: 688px;
     height: 120px;
     font-family: var(--font-family);
@@ -317,7 +316,7 @@
     color: #000;
 }
 
-.second-paragraph{
+.second-paragraph {
     display: flex;
     align-items: flex-start;
     width: 693px;
@@ -326,18 +325,18 @@
     align-self: flex-start;
 }
 
-.footer{
+.footer {
     margin-top: 180px;
 }
 
-.footer-container{
+.footer-container {
     width: 1100px;
     height: 180px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.footer-adress{
+.footer-adress {
     font-family: var(--font-family);
     display: flex;
     max-width: 260px;
@@ -351,7 +350,7 @@
     color: #000
 }
 
-.footer-list{
+.footer-list {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -359,11 +358,11 @@
     text-align: center;
 }
 
-.footer-link-nostyle{
+.footer-link-nostyle {
     text-decoration: none;
 }
 
-.footer-link{
+.footer-link {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
@@ -371,7 +370,7 @@
     color: #000;
 }
 
-.footer-social-list{
+.footer-social-list {
     list-style: none;
     display: flex;
     gap: 48px;
