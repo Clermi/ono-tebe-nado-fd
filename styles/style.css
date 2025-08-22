@@ -1,7 +1,7 @@
 /* место для вашего кода */
 
 :root {
-  --font-family: "Raleway";
+  --font-family: "Raleway", Arial, sans-serif;
 }
 
 .header-container {
