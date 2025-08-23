@@ -1,1 +1,1 @@
-https://github.com/Clermi/ono-tebe-nado
+https://github.com/Clermi/ono-tebe-nado-fd
